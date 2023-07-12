@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/basicos.css">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Registra tu Actividad Diaria</h1>
+    <div class="registrar_actividad">
+        <textarea id="publicacionComentario" spellcheck="false" name="comentario" id="comentario"></textarea>
+        <span id="limitarCaracter" class="limiteCaracteres">0</span>
+    </div>
+    
+    <button id="enviarComentario">Enviar</button>
+    <!-- <button id="limpiarComentario">Limpiar</button> -->
+    <h1>Actividades</h1>
+    <div class="contenedor_actividades">
+        <ul id="actividades">
+
+        </ul>
+    </div>
+    <div class="contenedor_actividades">
+        <ul id="actividades">
+        </ul>
+    </div>
+    <script src="js/publicacion_comentario.js"></script>
+</body>
+</html>

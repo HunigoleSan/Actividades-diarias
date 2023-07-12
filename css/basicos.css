@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(250, 206, 87);
+  display: flex;
+
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Kano";
+}
+h1 {
+  margin-top: 1rem;
+}
+.registrar_actividad{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+textarea {
+  border: 0px;
+  outline: none;
+  resize: none;
+  width: 350px;
+  height: 150px;
+
+  padding: 1rem;
+  color: #2b2b2b;
+  font-size: 1rem;
+  font-weight: lighter;
+  background-color: inherit;
+
+}
+
+.limiteCaracteres{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+button {
+  border: 0px;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  color: #2b2b2b;
+  background: #82bcff;
+}
+button:active {
+  background: #50a2ff;
+  color: #ffffff;
+}
+
+.contenedor_actividades {
+  width: 350px;
+  overflow-wrap: break-word /* Los elementos hijos no se desbordan*/
+}
+ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.actividades {
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #2b2b2b;
+  background: white;
+  border-radius: 10px;
+  
+}
